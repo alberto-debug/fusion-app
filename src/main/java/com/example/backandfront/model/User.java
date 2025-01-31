@@ -6,6 +6,7 @@ import javax.swing.*;
 
 @Entity
 @Table(name = "test")
+
 public class User {
 
     @Id
@@ -18,7 +19,8 @@ public class User {
 
     }
 
-    public User(String name, int age){
+    public User(String id, String name, int age) {
+        this.id = id;
         this.name = name;
         this.age = age;
     }
