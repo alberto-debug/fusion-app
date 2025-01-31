@@ -18,8 +18,6 @@ public class BackandfrontApplication {
 
 	@GetMapping("/")
 	public  String Hello(){
-		return ("Hello World");
+		return ("Hello, this is a proof that the Server Side is correctly working");
 	}
-
-
 }
