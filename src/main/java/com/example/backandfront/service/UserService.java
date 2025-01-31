@@ -23,7 +23,7 @@ public class UserService {
         return userRepository.findAll();
     }
 
-    public Optional<User> getStudentById(String id){
+    public Optional<User> getStudentById(Long id){
         return userRepository.findById(id);
     }
 }
